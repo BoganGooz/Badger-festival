@@ -347,12 +347,10 @@ body.nav-active {
 
 .work-card .card-text.friday {
     color: var(--purple-color);
-    font-size: 25px;
 }
 
 .work-card .card-text.saturday {
     color: var(--orange-color);
-    font-size: 25px;
 }
 
 .work-card .card-title:is(:hover, :focus-visible) {
@@ -378,12 +376,14 @@ p.section-text.prog {
 }
 
 p.section-text.prog.friday {
-    background-color: var(--purple-color)
+    background-color: var(--purple-color);
+    font-size: 25px;
 }
 
 p.section-text.prog.saturday {
     margin-top: 100px;
-    background-color: var(--orange-color)
+    background-color: var(--orange-color);
+    font-size: 25px;
 }
 
 
