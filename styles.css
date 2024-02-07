@@ -373,6 +373,7 @@ body.nav-active {
 p.section-text.prog {
     margin-bottom: 0px;
     margin-top: 50px;
+    font-size: 25px;
 }
 
 p.section-text.prog.friday {
