@@ -210,8 +210,6 @@ body.nav-active {
 }
 
 .header {
-    position: fixed;
-    background-color: var(--beige-color);
     top: 0;
     left: 0;
     width: 100%;
