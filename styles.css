@@ -488,6 +488,13 @@ p.section-text.prog.saturday {
 
 /* --------------------------------------Infos Page-------------------------------------- */
 
+.p-billets {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+/* --------------------------------------Infos Page-------------------------------------- */
+
 .hero-info {
     padding-block-start: 150px;
 }
