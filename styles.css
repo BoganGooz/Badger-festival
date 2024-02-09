@@ -167,6 +167,15 @@ body.nav-active {
 
 .btn-primary {
     background-color: var(--orange-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .btn-primary:is(:hover, :focus-visible) {
@@ -300,6 +309,12 @@ body.nav-active {
     margin-block: 25px;
 }
 
+.historique-text {
+    margin-block: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 .hero .btn {
     margin-block-start: 15px;
 }
@@ -311,7 +326,6 @@ body.nav-active {
 .hero .shape {
     display: none;
 }
-
 
 /* --------------------------------------Programmation-------------------------------------- */
 
@@ -468,6 +482,9 @@ p.section-text.prog.saturday {
     justify-content: center;
 }
 
+.footer-logo {
+    height: 19px;
+}
 
 /* --------------------------------------Infos Page-------------------------------------- */
 
@@ -501,11 +518,6 @@ iframe {
     padding-block-start: 180px ;
 }
 
-.p-historique {
-    margin: 85px;
-    justify-content: center;
-    align-items: center;
-}
 
 
 /* --------------------------------------Bio page-------------------------------------- */
@@ -526,6 +538,7 @@ iframe {
 
 /* Responsive for larger than 575px screen */
 
+
 @media (min-width: 575px) {
 
     .container {
@@ -542,7 +555,14 @@ iframe {
         width: 60%;
     }
     
+    .p-center {
+        margin: 85px;
+        justify-content: center;
+        align-items: center;
+    }
+
     
+
 
 }
 
@@ -595,6 +615,7 @@ iframe {
     .hero .btn-wrapper {
         display: flex;
         align-items: center;
+        justify-content: center;
         gap: 15px;
     }
 
@@ -634,6 +655,7 @@ iframe {
     .frime {
         width: 55%;
     }
+
     
 }
 
@@ -807,3 +829,4 @@ iframe {
     }
     
 }
+
