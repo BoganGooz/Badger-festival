@@ -493,6 +493,10 @@ p.section-text.prog.saturday {
     margin-right: 15px;
 }
 
+.p-objets {
+    text-align: left;
+}
+
 /* --------------------------------------Infos Page-------------------------------------- */
 
 .hero-info {
