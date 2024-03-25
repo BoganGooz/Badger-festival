@@ -486,6 +486,7 @@ p.section-text.prog.saturday {
     height: 19px;
 }
 
+
 /* --------------------------------------Infos Page-------------------------------------- */
 
 .p-billets {
@@ -496,7 +497,6 @@ p.section-text.prog.saturday {
 .p-objets {
     text-align: left;
 }
-
 /* --------------------------------------Infos Page-------------------------------------- */
 
 .hero-info {
@@ -544,6 +544,59 @@ iframe {
     margin-inline: 100px;
     margin-top: -10px;
 }
+
+
+/* --------------------------------------Petite scène-------------------------------------- */
+
+#petit-vendredi {
+    background-color: var(--purple-color);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#petit-samedi {
+    background-color: var(--orange-color);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.title-petit {
+    color: var(--purple-color);
+    line-height: 1.1;
+}
+
+#button-petit-vendredi {
+    background-color: var(--purple-color);
+    margin-bottom: 40px;
+    margin-right: 100px;
+    font-size: 30px;
+}
+
+#button-petit-vendredi:is(:hover, :focus-visible) {
+    background-color: var(--beige-color);
+    border: 3px solid var(--purple-color);
+    border-radius: 50px;
+}
+
+
+#button-petit-samedi {
+    margin-bottom: 40px;
+    margin-left: 100px;
+    font-size: 30px;
+}
+
+#button-petit-samedi:is(:hover, :focus-visible) {
+    background-color: var(--beige-color);
+    border: 3px solid var(--orange-color);
+    border-radius: 50px;
+}
+
+
 
 /* --------------------------------------Media Queries-------------------------------------- */
 
