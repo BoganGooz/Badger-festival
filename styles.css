@@ -330,7 +330,7 @@ body.nav-active {
 /* --------------------------------------Programmation-------------------------------------- */
 
 .work-card .card-banner {
-    /* border-radius: var(--radius-40); */
+    border-radius: var(--radius-40);
     margin-block-end: 20px;
 }
 
@@ -367,7 +367,7 @@ body.nav-active {
 }
 
 .work-card .card-title:is(:hover, :focus-visible) {
-    color: var(--black-color);
+    color: var(--orange-color);
 }
 
 
@@ -425,7 +425,15 @@ p.section-text.prog.saturday {
     font-family: 'Condensed48ptExtrabold';
 }
 
+#title-prog {
+    margin-bottom: 50px;
+}
 
+.hero .containera {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
 
 
 /* --------------------------------------Footer-------------------------------------- */
@@ -596,6 +604,12 @@ iframe {
     border-radius: 50px;
 }
 
+#title-moyenne {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
 
 
 /* --------------------------------------Media Queries-------------------------------------- */
@@ -893,4 +907,3 @@ iframe {
     }
     
 }
-
