@@ -334,6 +334,10 @@ body.nav-active {
     display: inline-flex;
 }
 
+#cont-index {
+    justify-content: center;
+}
+
 /* --------------------------------------Programmation-------------------------------------- */
 
 .work-card .card-banner {
