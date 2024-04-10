@@ -328,7 +328,9 @@ body.nav-active {
 }
 
 #video-container {
-    width: 600px;
+    width: 60%;
+    align-items: center;
+    display: inline-flex;
 }
 
 /* --------------------------------------Programmation-------------------------------------- */
