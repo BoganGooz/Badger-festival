@@ -327,6 +327,10 @@ body.nav-active {
     display: none;
 }
 
+#video-container {
+    width: 600px;
+}
+
 /* --------------------------------------Programmation-------------------------------------- */
 
 .work-card .card-banner {
