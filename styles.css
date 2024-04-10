@@ -319,7 +319,7 @@ body.nav-active {
     margin-block-start: 15px;
 }
 
-.hero-banner .w-100{
+.hero-banner .w-100 {
     max-width: 100%;
     display: none;
 }
