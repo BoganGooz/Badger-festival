@@ -320,7 +320,8 @@ body.nav-active {
 }
 
 .hero-banner .w-100{
-    max-width: max-content;
+    max-width: 100%;
+    display: none;
 }
 
 .hero .shape {
