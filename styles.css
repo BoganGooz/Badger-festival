@@ -717,6 +717,8 @@ iframe {
         position: relative;
         max-width: 540px;
         margin-inline: auto;
+        display: flex;
+        justify-content: center;
     }
 
     .hero .shape {
@@ -745,7 +747,10 @@ iframe {
         width: 55%;
     }
 
-    
+    .hero-banner .w-100{
+        max-width: 70%;
+        display: flex;
+    }   
 }
 
 @media (min-width: 992px) {
@@ -851,6 +856,11 @@ iframe {
     .frime {
         width: 50%;
     }
+
+    .hero-banner .w-100{
+        max-width: 100%;
+        display: flex;
+    }
     
 
 }
@@ -872,6 +882,11 @@ iframe {
 
     .frime {
         width: 45%;
+    }
+
+    .hero-banner .w-100{
+        max-width: 100%;
+        display: flex;
     }
 
     
@@ -915,6 +930,11 @@ iframe {
 
     .frime {
         width: 45%;
+    }
+
+    .hero-banner .w-100{
+        max-width: 100%;
+        display: flex;
     }
     
 }
