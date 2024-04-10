@@ -733,13 +733,13 @@ iframe {
 
     .hero .shape-1 {
         width: 10%;
-        top: 350px;
+        top: 160px;
         left: 50px;
     }
 
     .hero .shape-2 {
         width: 13%;
-        top: 380px;
+        top: 190px;
         left: 120px;
     }
 
@@ -752,7 +752,7 @@ iframe {
     }
 
     .hero-banner .w-100{
-        max-width: 70%;
+        max-width: 50%;
         display: flex;
     }   
 }
@@ -866,6 +866,18 @@ iframe {
         display: flex;
     }
     
+    .hero .shape-1 {
+        width: 10%;
+        top: 350px;
+        left: 50px;
+    }
+
+    .hero .shape-2 {
+        width: 13%;
+        top: 380px;
+        left: 120px;
+    }
+    
 
 }
 
@@ -893,6 +905,17 @@ iframe {
         display: flex;
     }
 
+    .hero .shape-1 {
+        width: 10%;
+        top: 350px;
+        left: 50px;
+    }
+
+    .hero .shape-2 {
+        width: 13%;
+        top: 380px;
+        left: 120px;
+    }
     
 }
 
@@ -939,6 +962,18 @@ iframe {
     .hero-banner .w-100{
         max-width: 100%;
         display: flex;
+    }
+
+    .hero .shape-1 {
+        width: 10%;
+        top: 350px;
+        left: 50px;
+    }
+
+    .hero .shape-2 {
+        width: 13%;
+        top: 380px;
+        left: 120px;
     }
     
 }
