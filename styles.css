@@ -646,7 +646,10 @@ iframe {
         align-items: center;
     }
 
-    
+    .hero-banner .w-100 {
+        max-width: 100%;
+        display: flex;
+    }
 
 
 }
