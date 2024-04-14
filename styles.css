@@ -332,12 +332,6 @@ body.nav-active {
     display: none;
 }
 
-#video-container {
-    width: 60%;
-    align-items: center;
-    display: inline-flex;
-}
-
 #cont-index {
     justify-content: center;
 }
