@@ -190,6 +190,12 @@ body.nav-active {
     width: 100%;
 }
 
+.w-102 {
+    width: 70%;
+    align-items: center;
+    display: inline;
+}
+
 .text-center {
     text-align: center;
 }
@@ -652,6 +658,12 @@ iframe {
     .hero-banner .w-100 {
         max-width: 100%;
         display: flex;
+    }
+
+    .w-102 {
+        width: 55%;
+        align-items: center;
+        display: inline;
     }
 
 
