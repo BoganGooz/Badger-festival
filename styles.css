@@ -342,6 +342,10 @@ body.nav-active {
     justify-content: center;
 }
 
+.hero.no-space {
+    padding-bottom: 50px;
+}
+
 /* --------------------------------------Programmation-------------------------------------- */
 
 .work-card .card-banner {
@@ -664,6 +668,10 @@ iframe {
         width: 55%;
         align-items: center;
         display: inline;
+    }
+
+    .hero.no-space {
+        padding-bottom: 100px;
     }
 
 
