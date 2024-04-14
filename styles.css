@@ -343,7 +343,11 @@ body.nav-active {
 }
 
 .hero.no-space {
-    padding-bottom: 50px;
+    padding-bottom: 40px;
+}
+
+.works.no-space {
+    padding-bottom: 80px;
 }
 
 /* --------------------------------------Programmation-------------------------------------- */
@@ -673,6 +677,10 @@ iframe {
     .hero.no-space {
         padding-bottom: 100px;
     }
+
+    .works.no-space {
+    padding-bottom: 120px;
+}
 
 
 }
