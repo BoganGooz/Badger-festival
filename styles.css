@@ -375,6 +375,7 @@ body.nav-active {
 
 .work-card .card-title.friday {
     color: var(--purple-color);
+    font-size: 25px;
 }
 
 .work-card .card-title.saturday {
